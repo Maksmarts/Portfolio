@@ -645,7 +645,17 @@ visibility: hidden;
     border-radius: 50%;
   }
   
-
+  .janre{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 0%;
+    padding-bottom: 2%;
+    margin-block: 3%;
+    margin-inline: auto;
+  border-radius: 20px; */
+  /* background-color: #363636; */
+  }
   .playlist{
     display: flex;
   flex-direction: row;
@@ -654,7 +664,7 @@ visibility: hidden;
     margin-top: 4%;
   }
 .genre{
-  width: 45%;
+  /* width: 45%; */
   display: flex;
   flex-direction: column;
   padding: 0%;
@@ -823,7 +833,7 @@ font-size: 13px;
       height: 35px;
 
     }
-    .genre{
+    .janre{
       width: 100%;
       display: flex;
       flex-direction: column;
