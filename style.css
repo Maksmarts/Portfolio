@@ -25,6 +25,11 @@ justify-content: center;
 justify-content:space-around;
 height: 50vh;
 }
+
+.textcenter{
+text-align: center;
+}
+
 iframe{
   margin-bottom: 5%;
   width:40%;
@@ -314,7 +319,6 @@ padding-inline: 5%;
     .tab {
       display: flex;
       flex-wrap: wrap;
-      /* gap: 5rem; */
         justify-content: center; 
         column-gap: normal;
         justify-content: space-around; 
@@ -365,7 +369,6 @@ padding-inline: 5%;
     .tab > input[type="radio"]:checked + label {
       border-bottom-color: #d3d3d3;
       transition: 800ms;
-      /* font-size: 26px; */
       cursor: crosshair;
       color: #dddddd;
     }
@@ -404,7 +407,6 @@ padding-inline: 5%;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 2rem;
-/* padding-right: 10%; */
     }
     .sk{
         display: flex;
@@ -419,7 +421,6 @@ padding-bottom: 20%;
   position: absolute;
   width: 90px;
   height: auto;
-  /* filter: grayscale(1); */
   }
 .brightness{
     filter: sepia(0.2) hue-rotate(180deg);
@@ -445,7 +446,6 @@ margin-top: 10%;
 div[role="progressbar"] {
     --size: 7rem;
     --fg: rgb(68, 68, 68);
-    /* --fg: rgba(29, 71, 150, 0.301); */
     --bg: rgb(116, 116, 116);
     --pgPercentage: var(--value);
     animation: growProgressBar 3s 1 forwards;
@@ -540,14 +540,12 @@ justify-content: center;
 
 .icon{
 height: 40px;
-/* padding-bottom: 10%; */
 }
 .contact{
     display: flex;
     flex-direction: column;
     padding: 15px;
 align-items: center;
-/* gap: 5%; */
 filter: brightness(1) opacity(0.5);
 }
 .contact:hover{
@@ -649,12 +647,8 @@ visibility: hidden;
     width: 45%;
     display: flex;
     flex-direction: column;
-    /* padding: 0%;
-    padding-bottom: 2%;
-    margin-block: 3%;
     margin-inline: auto;
-  border-radius: 20px; */
-  /* background-color: #363636; */
+    
   }
   .playlist{
     display: flex;
@@ -664,13 +658,11 @@ visibility: hidden;
     margin-top: 4%;
   }
 .genre{
-  /* width: 45%; */
   display: flex;
   flex-direction: column;
   padding: 0%;
   padding-bottom: 2%;
   margin-block: 3%;
-  margin-inline: auto;
 border-radius: 20px;
 background-color: #363636;
 }
@@ -703,7 +695,6 @@ audio {
   width: 100%;
   height: 40px;
   color: rgb(42, 28, 204) ;
-  /* background-color: rgb(197, 197, 197); */
 }
 
 
@@ -713,7 +704,6 @@ audio {
 
 @media (max-width: 1650px){
   .circles{
-/* padding-bottom: -5px; */
     width:103%;
     height: 106%;
 }
@@ -725,7 +715,6 @@ audio {
       font-size: 20px;
   }
   .circles{
-    /* padding-bottom: -5px; */
         width:104%;
         height: 106%;
     }
@@ -747,7 +736,6 @@ audio {
       position: absolute;
       width: 65px;
       height: auto;
-      /* filter: grayscale(1); */
       }
 
       .skills{
@@ -757,7 +745,6 @@ audio {
         color: #aaaaaa;
         padding-left: 10%;
         gap: 2rem;
-/* padding-right: 10%; */
     }
     .cont{
       padding-inline: 3% 3%;
@@ -766,9 +753,7 @@ audio {
     }
 
     
-  /* img{
-      filter: brightness(95%);
-  } */
+
   @media (max-width: 922px){
     
     .contfont{
@@ -784,7 +769,6 @@ audio {
 
       }
       .circles{
-        /* padding-bottom: -5px; */
             width:105%;
             height: 106%;
         }
@@ -802,7 +786,6 @@ audio {
         }
         .skill{
           width: 50px;
-          /* filter: grayscale(1); */
           }
           .skills{
             font-size: 20px;
@@ -865,7 +848,6 @@ font-size: 13px;
 }
 .cont{
   flex-direction: column;
-  
 }          
 
 hr{
@@ -884,9 +866,7 @@ hr{
 background-color: rgb(36, 36, 36); 
 padding-bottom: 10%;
 }
-.circles{
-  /* display: none; */
-}
+
 .head4{
   font-size: 20px;
 }
@@ -911,21 +891,50 @@ padding-bottom: 10%;
 }
 
 @media (max-width: 540px){
+  .content1{
+    display: flex;
+    flex-direction: column;
+  }
 .tab{
   gap:10%;
 }
 .obo{
   font-size: 13px;
+  padding-inline: 4%;
+  align-self: center;
 }
 div[role="progressbar"] {
-  --size: 3rem;
+  --size: 5rem;
 }
 .skill{
-  width: 35px;
-  /* filter: grayscale(1); */
+  width: 65px;
   }
   .skills{
+    padding-top: 10%;
     font-size: 20px;
     gap: 2rem;
+    padding-inline: 10%;
+    justify-content: center;
+
+}
+.center{
+  display: flex;
+  flex-wrap: nowrap;
+align-items: center;
+  flex-direction: column;
+height: 100vh;
+}
+iframe{
+  margin-bottom: 5%;
+  width:100%;
+  height:100%;
+  padding-inline: 5%;
+}
+.centervideo{
+  width: 100%;
+ height: 50vh;
+display: flex;
+align-self: center;
+margin-bottom: 5%;
 }
 }
