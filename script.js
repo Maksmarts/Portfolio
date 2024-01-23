@@ -11,7 +11,7 @@ function wh(){
     window.open ("https://wa.me/79517859945")
 }
 function email(){
-    window.open ("mailto:maksmarts@mail.ru&body=привет?subject=вопрос")
+    window.open ("mailto:maksmarts@mail.ru")
 }
 function tel(){
     window.open ("tel:+79517859945")
